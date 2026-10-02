@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2f7d78">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Steady">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<title>Steady</title>
+</head>
+<body>
+<main id="app"></main>
+<nav id="tabs">
+  <button data-view="today">Today</button>
+  <button data-view="worries">Worries</button>
+  <button data-view="body">Body</button>
+  <button data-view="insights">Insights</button>
+  <button data-view="data">Data</button>
+</nav>
+<div id="toast" role="status"></div>
+<input type="file" id="importFile" accept="application/json,.json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
